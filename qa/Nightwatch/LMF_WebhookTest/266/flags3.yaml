@@ -1,0 +1,25 @@
+featureFlags:
+  flags:
+  - flag:
+      name: dummyFlagForGitSync1112
+      identifier: dummyFlagForGitSync1112
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        variations:
+        - identifier: "on"
+          value: "on"
+        - identifier: "off"
+          value: "off"
+      environments:
+      - identifier: TestEnv
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        state: "on"
+  projectIdentifier: LMF_WebhookTest
+  orgIdentifier: default
