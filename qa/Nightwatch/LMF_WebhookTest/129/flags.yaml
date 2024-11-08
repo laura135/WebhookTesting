@@ -1,46 +1,25 @@
 featureFlags:
-  flags:
-  - flag:
-      name: dummyFlagForGitSync1602
-      identifier: dummyFlagForGitSync1602
-      description: ""
-      permanent: false
-      spec:
-        type: string
-        default:
-          onVariation: "on"
-          offVariation: "off"
-        variations:
-        - identifier: "on"
-          value: "on"
-        - identifier: "off"
-          value: "off"
-      environments:
-      - identifier: defaultTestEnv
-        default:
-          onVariation: "on"
-          offVariation: "off"
-        state: "off"
-  - flag:
-      name: webhookFlag641
-      identifier: webhookFlag641
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: defaultTestEnv
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        state: "off"
-  projectIdentifier: LMF_WebhookTest
-  orgIdentifier: default
+    flags:
+    - flag:
+        name: webhookFlag450
+        identifier: webhookFlag450
+        description: ''
+        permanent: false
+        spec:
+          type: boolean
+          default:
+            onVariation: 'false'
+            offVariation: 'false'
+          variations:
+          - identifier: 'true'
+            value: 'true'
+          - identifier: 'false'
+            value: 'false'
+        environments:
+        - identifier: defaultTestEnv
+          default:
+            onVariation: 'false'
+            offVariation: 'false'
+          state: 'off'
+    projectIdentifier: TestProject
+    orgIdentifier: default
