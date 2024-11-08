@@ -85,6 +85,27 @@ featureFlags:
           offVariation: "off"
         state: "off"
   - flag:
+      name: dummyFlagForGitSync118
+      identifier: dummyFlagForGitSync118
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        variations:
+        - identifier: "on"
+          value: "on"
+        - identifier: "off"
+          value: "off"
+      environments:
+      - identifier: TestEnv
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        state: "off"
+  - flag:
       name: dummyFlagForGitSync1297
       identifier: dummyFlagForGitSync1297
       description: ""
