@@ -20,6 +20,6 @@ featureFlags:
         default:
           onVariation: "on"
           offVariation: "off"
-        state: "off"
+        state: "on"
   projectIdentifier: LMF_WebhookTest
   orgIdentifier: default
