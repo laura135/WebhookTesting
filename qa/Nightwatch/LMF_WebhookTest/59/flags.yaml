@@ -1,6 +1,27 @@
 featureFlags:
   flags:
   - flag:
+      name: dummyFlagForGitSync1664
+      identifier: dummyFlagForGitSync1664
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        variations:
+        - identifier: "on"
+          value: "on"
+        - identifier: "off"
+          value: "off"
+      environments:
+      - identifier: defaultTestEnv
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        state: "off"
+  - flag:
       name: webhookFlag476
       identifier: webhookFlag476
       description: ""
