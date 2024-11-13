@@ -1,25 +1,4 @@
 featureFlags:
-  flags:
-  - flag:
-      name: test
-      identifier: test
-      description: ""
-      permanent: false
-      spec:
-        type: boolean
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        variations:
-        - identifier: "true"
-          value: "true"
-        - identifier: "false"
-          value: "false"
-      environments:
-      - identifier: defaultTestEnv
-        default:
-          onVariation: "false"
-          offVariation: "false"
-        state: "on"
+  flags: []
   projectIdentifier: CF_GITSYNC_2_1731338051
   orgIdentifier: default
