@@ -18,7 +18,7 @@ featureFlags:
       environments:
       - identifier: defaultTestEnv
         default:
-          onVariation: "false"
+          onVariation: "true"
           offVariation: "false"
         state: "off"
   projectIdentifier: CF_GITSYNC_2_1731338051
