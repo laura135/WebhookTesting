@@ -1,6 +1,27 @@
 featureFlags:
   flags:
   - flag:
+      name: TestFlagForWebhook3
+      identifier: TestFlagForWebhook3
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: defaultTestEnv
+        default:
+          onVariation: "false"
+          offVariation: "false"
+        state: "off"
+  - flag:
       name: testflagForWQebhook1
       identifier: testflagForWQebhook1
       description: ""
