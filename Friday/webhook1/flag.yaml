@@ -20,7 +20,7 @@ featureFlags:
         default:
           onVariation: "false"
           offVariation: "false"
-        state: "off"
+        state: "on"
   - flag:
       name: testflagForWQebhook1
       identifier: testflagForWQebhook1
