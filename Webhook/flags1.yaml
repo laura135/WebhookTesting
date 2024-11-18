@@ -20,11 +20,11 @@ featureFlags:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "on"
+        state: "off"
       - identifier: test1
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "off"
+        state: "on"
   projectIdentifier: Webhook2
   orgIdentifier: default
