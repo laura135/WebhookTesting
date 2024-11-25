@@ -20,6 +20,6 @@ featureFlags:
         default:
           onVariation: "true"
           offVariation: "false"
-        state: "off"
+        state: "blah"
   projectIdentifier: CF_GitSync_HarnessToGit_19307
   orgIdentifier: default
