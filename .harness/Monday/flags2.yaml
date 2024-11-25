@@ -1,4 +1,25 @@
 featureFlags:
-  flags: []
+  flags:
+  - flag:
+      name: flag1
+      identifier: flag1
+      description: ""
+      permanent: false
+      spec:
+        type: boolean
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        variations:
+        - identifier: "true"
+          value: "true"
+        - identifier: "false"
+          value: "false"
+      environments:
+      - identifier: TestEnv
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: CF_GitSync_HarnessToGit_19307
   orgIdentifier: default
