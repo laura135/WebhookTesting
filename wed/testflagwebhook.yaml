@@ -1,0 +1,25 @@
+featureFlags:
+  flags:
+  - flag:
+      name: stringFlagForGitSync741
+      identifier: stringFlagForGitSync741
+      description: ""
+      permanent: false
+      spec:
+        type: string
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        variations:
+        - identifier: "on"
+          value: "on"
+        - identifier: "off"
+          value: "off"
+      environments:
+      - identifier: defaultTestEnv
+        default:
+          onVariation: "on"
+          offVariation: "off"
+        state: "off"
+  projectIdentifier: CF_GITSYNC_2_1732521740
+  orgIdentifier: default
