@@ -20,6 +20,6 @@ featureFlags:
         default:
           onVariation: "on"
           offVariation: "off"
-        state: "off"
+        state: "on"
   projectIdentifier: CF_GITSYNC_2_1732521740
   orgIdentifier: default
