@@ -1,0 +1,25 @@
+featureFlags:
+    flags:
+    - flag:
+        name: webhookFlag798
+        identifier: webhookFlag798
+        description: ''
+        permanent: false
+        spec:
+          type: boolean
+          default:
+            onVariation: 'false'
+            offVariation: 'false'
+          variations:
+          - identifier: 'true'
+            value: 'true'
+          - identifier: 'false'
+            value: 'false'
+        environments:
+        - identifier: defaultTestEnv
+          default:
+            onVariation: 'false'
+            offVariation: 'false'
+          state: 'off'
+    projectIdentifier: CF_1733310569
+    orgIdentifier: default
