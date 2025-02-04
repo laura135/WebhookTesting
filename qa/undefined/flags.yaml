@@ -1,8 +1,8 @@
 featureFlags:
     flags:
     - flag:
-        name: webhookFlag294
-        identifier: webhookFlag294
+        name: webhookFlag507
+        identifier: webhookFlag507
         description: ''
         permanent: false
         spec:
